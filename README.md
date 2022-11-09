@@ -2,51 +2,92 @@
 
 * ## Description 
 
-1. ### Creation of a Web service that allows:
+1. ### Créer un projet Spring Boot avec les dépendances Web, Spring Data JPA, H2, Lombok
 
-- Convert an amount from the euro to DH 
-- Consult an Account
-- Consult a List of accounts
+2. ### Créer l'entité JPA Compte
 
-2. ### Deploy the Web service with a simple JaxWS Server
+3. ### Créer l'interface CompteRepository basée sur Spring Data
 
-3. ### Consult and analyze the WSDL with an HTTP Browser
+4. ### Tester la couche DAO
 
-4. ### Create a Java SOAP Client
+5. ### Créer le Web service Restfull qui permet de gérer des comptes
+
+6. ### Tester le web micro-service en utilisant un client REST comme Postman
+
+7. ### TGénérer et tester le documentation Swagger de des API Rest du Web service
+
+8. ### Créer les DTOs et Mappers
+
+9. ### Créer la couche Service (métier) et du micro service1. ### Create a Spring Boot project with Web dependencies, Spring Data JPA, H2, Lombok
+
 
 * ## Execution .
 
-1. ### JaxWS Web Service Implementation
+1. ### Créer un projet Spring Boot avec les dépendances Web, Spring Data JPA, H2, Lombok
 
-![](/assets/images/WebService.png)
+![](/assets/images/question1.png)
 
-![](/assets/images/Compte.png)
+2. ### Créer l'entité JPA Compte
 
-2. ### Simple JAX WS Server
+![](/assets/images/question2.png)
 
-![](/assets/images/main.png)
+3. ### Créer l'interface CompteRepository basée sur Spring Data
 
-- Java server execution
+![](/assets/images/question3.png)
 
-![](/assets/images/exec1.png)
+4. ### Tester la couche DAO
 
-3. ### Analyze the WSDL
+- class Application
 
-#### To View the WSDL, you can use a web browser
+![](/assets/images/question4_1.png)
 
-![](/assets/images/WSDL.png)
+- H2 Data Base Demonstration
 
-4. ### Create a Java SOAP Client
+![](/assets/images/question4_2.png)
 
-- Generated Files
+5. ### Créer le Web service Restfull qui permet de gérer des comptes
 
-![](/assets/images/Generated_Files.png)
+![](/assets/images/question5.png)
 
--main
+6. ### Tester le web micro-service en utilisant un client REST comme Postman
 
-![](/assets/images/main1.png)
+![](/assets/images/question_6.png)
 
-- Java server execution
+7. ### TGénérer et tester le documentation Swagger de des API Rest du Web service
 
-![](/assets/images/exec2.png)
+- Swagger
+
+![](/assets/images/question7_1.png)
+
+- Test
+
+![](/assets/images/question7_2.png)
+
+
+8. ### Créer les DTOs et Mappers
+
+- Dtos
+
+![](/assets/images/question8_1.png)
+
+- Mapper
+
+![](/assets/images/question8_2.png)
+
+
+
+9. ### Créer la couche Service (métier) et du micro service1.
+
+- Interface 
+
+![](/assets/images/question9_0.png)
+
+- Implimentation
+
+![](/assets/images/question9_1.png)
+
+![](/assets/images/question9_2.png)
+
+
+
 
